@@ -125,3 +125,6 @@ nb-configuration.xml
 /phpunit*.xml
 /.phpunit.*.cache
 
+# entered by vj
+public/.htaccess
+app/Config/App.php
