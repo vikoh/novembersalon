@@ -74,7 +74,7 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique eligendi est ipsa id dolorum quod aperiam tenetur dolores quasi perferendis modi vel dicta autem, aspernatur libero? Commodi eaque in cum.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="../assets/img/sample/1.jpg" alt="" class="img-fluid">
+                    <img src="<?= base_url('assets/img/sample/1.jpg') ?>" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="row justify-content-center align-items-center">
@@ -83,7 +83,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit sit nihil iure, neque exercitationem consequatur facere numquam fugit ullam hic eius quisquam accusantium non minima doloribus cum voluptas, minus velit!</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="../assets/img/sample/2.jpg" alt="" class="img-fluid">
+                    <img src="<?= base_url('assets/img/sample/2.jpg') ?>" alt="" class="img-fluid">
                 </div>
             </div>
             <div class="row justify-content-center align-items-center">
@@ -92,7 +92,7 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique eligendi est ipsa id dolorum quod aperiam tenetur dolores quasi perferendis modi vel dicta autem, aspernatur libero? Commodi eaque in cum.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="../assets/img/sample/3.jpg" alt="" class="img-fluid">
+                    <img src="<?= base_url('assets/img/sample/3.jpg') ?>" alt="" class="img-fluid">
                 </div>
             </div>
         </section>
