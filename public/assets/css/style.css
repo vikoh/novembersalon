@@ -1,4 +1,27 @@
-html,
+body{
+  background-color: #000;
+}
+
+#intro{
+  background-image: url("../img/sample/intro.jpg");
+  height: 400px;
+}
+
+@media (min-width: 576px){
+  #intro{
+   height: 600px;
+  }
+}
+    
+.divider{
+  background-color: #eee;
+}
+
+
+
+
+
+/* html,
 body,
 header,
 #intro {
@@ -25,4 +48,5 @@ header,
     .navbar:not(.top-nav-collapse) {
       background-color: #24355C;
     }
-  }
+  } */
+

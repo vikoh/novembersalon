@@ -4,6 +4,8 @@
         <div class="text-center">
             <img class="mb-4" src="<?= base_url('assets/img/november-salon-logos.jpeg') ?>" style="width: 500px; height: 500px;" />
             <h5 class="mb-3">Content for November Salon coming soon!</h5>
+            <p>Content for November salon coming soon!</p>
+            <h1>Content for November salon coming soon!</h1>
         </div>
     </div>
 </div>

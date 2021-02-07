@@ -1,4 +1,5 @@
 // Regular map
+/*
 function regular_map() {
     var var_location = new google.maps.LatLng(40.725118, -73.997699);
 
@@ -16,12 +17,15 @@ function regular_map() {
         title: "New York"
     });
 }
+*/
 
 // Initialize maps
-google.maps.event.addDomListener(window, 'load', regular_map);
+//google.maps.event.addDomListener(window, 'load', regular_map);
 
 // Carousel options
-
+/*
 $('.carousel').carousel({
     interval: 3000,
 })
+*/
+
