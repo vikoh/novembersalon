@@ -7,6 +7,45 @@ if (phpversion() < $minPHPVersion)
 	die("Your PHP version must be {$minPHPVersion} or higher to run CodeIgniter. Current version: " . phpversion());
 }
 unset($minPHPVersion);
+// error_reporting(E_ALL);
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION ENVIRONMENT
+ *---------------------------------------------------------------
+ */
+// define('ENVIRONMENT', 'development');
+/*
+ *---------------------------------------------------------------
+ * ERROR REPORTING
+ *---------------------------------------------------------------
+ */
+if (defined('ENVIRONMENT'))
+{
+    switch (ENVIRONMENT)
+    {
+        case 'development':
+            // Report all errors
+            error_reporting(E_ALL);
+
+            // Display errors in output
+            ini_set('display_errors', 1);
+        break;
+
+        case 'testing':
+        case 'production':
+            // Report all errors except E_NOTICE
+            // This is the default value set in php.ini
+            error_reporting(E_ALL ^ E_NOTICE);
+
+            // Don't display errors (they can still be logged)
+            ini_set('display_errors', 0);
+        break;
+
+        default:
+            exit('The application environment is not set correctly.');
+    }
+}
 
 // Path to the front controller (this file)
 define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR);
