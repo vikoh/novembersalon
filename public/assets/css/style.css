@@ -17,7 +17,11 @@ body{
   background-color: #eee;
 }
 
-
+#book{
+  background-image: url("../img/sample/book.jpg");
+  height: 300px;
+  background-size:contain;
+}
 
 
 

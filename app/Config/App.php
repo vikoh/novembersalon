@@ -21,7 +21,12 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
+<<<<<<< HEAD
 	public $baseURL = 'https://novembersalon.co.in/';
+=======
+	public $baseURL = 'http://novembersalon.test/';
+	#public $baseURL = 'http://192.168.43.40/novembersalon/public/';
+>>>>>>> 49e6b782ac3ee4fe18479393c9672a267b648ff1
 
 	/*
 	|--------------------------------------------------------------------------

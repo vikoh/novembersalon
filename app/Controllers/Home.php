@@ -4,10 +4,16 @@ class Home extends BaseController
 {
 	public function index()
 	{
+<<<<<<< HEAD
 		
 		echo view('layouts/header');
 		echo view('pages/home');
 		echo view('layouts/footer');
+=======
+		// echo view('layouts/header');
+		echo view('pages/sample-2');
+		// echo view('layouts/footer');
+>>>>>>> 49e6b782ac3ee4fe18479393c9672a267b648ff1
 	}
 
 	public function showme($page = 'home')

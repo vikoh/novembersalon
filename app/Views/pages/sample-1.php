@@ -19,13 +19,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Books</a>
+                        <a class="nav-link" href="#book">Books</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" href="#team">Team</a>
                     </li>
 
                 </ul>
@@ -97,5 +97,142 @@
             </div>
         </section>
     </div>
+
+    <section id="book">
+        <!-- Background image -->
+        <div class="d-flex justify-content-center align-items-center h-100" style="background-color: rgba(0, 0, 0, 0.6)">
+            <div class="text-white">
+                <a class="btn btn-outline-light btn-lg m-2" href="#!" role="button">Book a table</a>
+            </div>
+        </div>
+        <!-- Background image -->
+    </section>
+    <section id="team" class="text-center">
+        <h2 class="my-5 text-white">Our team</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="card mb-3" style="max-width: 540px">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="<?= base_url('assets/img/sample/t1.jpg') ?>" alt="..." class="img-fluid" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Shivani</h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3" style="max-width: 540px">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="<?= base_url('assets/img/sample/t2.jpg') ?>" alt="..." class="img-fluid" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Prakash</h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-3" style="max-width: 540px">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="<?= base_url('assets/img/sample/t3.jpg') ?>" alt="..." class="img-fluid" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Rosy</h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
-<footer></footer>
+<footer>
+    <footer class="bg-black text-white text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-5">Locations:</h5>
+                    <P>
+                        226 Halifax Court <br>
+                        New York, NY 10031<br>
+                        (248) 675-4007
+                    </P>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <p class="mt-3">
+                        416 NE. Sherman St<br>
+                        New York, NY 10027<br>
+                        (248) 675-4007
+                    </p>
+                    <p>
+                        59 North Shadow brook St.<br>
+                        Bronx, NY 10457<br>
+                        (248) 675-4007
+
+                    </p>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-5">Working hours:</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <p>Moday-Friday</p>
+                            <p>Saturday</p>
+                            <p>Sunday</p>
+                        </div>
+                        <div class="col-6">
+                            <p>9:00 AM - 5:00 PM</p>
+                            <p>12:00 Noon - 11:00 PM</p>
+                            <p>12:00 Noon - 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2021 Copyright:
+            <a class="text-white" href="https://novembersalon.co.in/">novembersalon.co.in</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</footer>
