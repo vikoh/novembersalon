@@ -22,6 +22,7 @@ class App extends BaseConfig
 	|
 	*/
 	public $baseURL = 'http://novembersalon.test/';
+	#public $baseURL = 'http://192.168.43.40/novembersalon/public/';
 
 	/*
 	|--------------------------------------------------------------------------
