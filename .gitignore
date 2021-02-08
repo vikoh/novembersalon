@@ -127,5 +127,5 @@ nb-configuration.xml
 
 # entered by vj
 public/.htaccess
-public/assets/img
+public/assets/img/
 app/Config/App.php
