@@ -129,4 +129,4 @@ nb-configuration.xml
 public/.htaccess
 public/assets/img/
 app/Config/App.php
-!public/index.php
+public/*
