@@ -22,7 +22,7 @@ class App extends BaseConfig
 	|
 	*/
 
-	public $baseURL = 'https://novembersalon.co.in/';
+	public $baseURL = '';
 
 
 	/*

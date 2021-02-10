@@ -64,7 +64,6 @@
                 </div>
             </div>
         </section>
-
         <section id="about" class="text-center text-white">
             <h2 class="my-5">Our promise:</h2>
 

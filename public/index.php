@@ -14,7 +14,11 @@ unset($minPHPVersion);
  * APPLICATION ENVIRONMENT
  *---------------------------------------------------------------
  */
+<<<<<<< HEAD
 define('ENVIRONMENT', 'production');
+=======
+// define('ENVIRONMENT', 'development');
+>>>>>>> df93900bdc7b6407fb575f6d1de5fe7b7bfe9ebf
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
