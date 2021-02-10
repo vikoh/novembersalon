@@ -23,6 +23,10 @@ body{
   background-size:contain;
 }
 
+.row{
+  margin:0;
+}
+
 
 
 /* html,
