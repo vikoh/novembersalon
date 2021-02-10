@@ -4,7 +4,8 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		echo view('layouts/header');
+		$data['title'] = 'Home - November Salon';
+		echo view('layouts/header', $data);
 		echo view('pages/home');
 		echo view('layouts/footer');
 	}
